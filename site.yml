@@ -1,6 +1,6 @@
 ---
 - name: Check environment setup
-  hosts: eagle
+  hosts: linux
   gather_facts: true
  
   tasks:

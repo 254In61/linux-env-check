@@ -10,8 +10,7 @@ function code-quality-check(){
    # pip install yamllint
    echo "" && echo "==> CODE QUALITY CHECKS - yamllint " && echo ""
    yamllint site.yml
-   yamllint roles/environment/tasks/*.yml
-   yamllint roles/patching/tasks/*.yml
+   yamllint roles/*/tasks/*.yml
 
 }
 

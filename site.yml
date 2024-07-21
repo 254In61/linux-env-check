@@ -1,6 +1,6 @@
 ---
 - name: Check environment setup
-  hosts: lab-linux-devices # The inventory name built in aap
+  hosts: all # The inventory name built in aap
   # connection: local
   gather_facts: false
  

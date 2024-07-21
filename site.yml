@@ -1,6 +1,6 @@
 ---
 - name: Check environment setup
-  hosts: linux
+  hosts: all
   gather_facts: true
  
   tasks:
